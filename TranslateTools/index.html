@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">		
+		<title>BaiDu-TranslateToolsTest</title>
+		<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.css"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<select class="dropdown" id="drop1">
+				<option value="0">自动检测</option>
+			    <option value="1">中文</option>
+			    <option value="2">英语</option>
+			    <option value="3">日语</option>
+			</select>
+			
+			<select class="dropdown" id="drop2">
+			   <option value="1">中文</option>
+			   <option value="2">英语</option>
+			   <option value="3">日语</option>
+			</select>
+			<div class="row">
+				<textarea class="col-md-5" id="txt1" placeholder="请在此输入源语言......"></textarea>
+				<button type="submit" id="btn1" onclick="Trans();"><i class="glyphicon glyphicon-arrow-right"></i></button>
+				<button type="submit" id="btn2">清空</button>
+				<textarea class="col-md-5" id="txt2" placeholder="请在此查看目标语言......"></textarea>
+			</div>
+
+		</div>
+		<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script src="js/md5.js"></script>
+		<script type="text/javascript" src="js/Translate.js" ></script>
+	</body>
+</html>
