@@ -39,7 +39,7 @@ $(function(){
 		    },
 		    success: function (data) {
 		        console.log(data);
-		        debugger;
+//		        debugger;
 		        $("#txt2").empty();
 		        var len = data.trans_result.length;
 		        txtContent=[]
